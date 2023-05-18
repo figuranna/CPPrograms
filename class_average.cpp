@@ -26,7 +26,7 @@ int GetArray(int * ptrHeight)
 	int i = 0;
 	
 	cout << "Enter the grades (max 50!)\n"; //printf("Kerem adja meg az osztalyzatokat (max 50 osztalyzat)!\n");
-	cout << "Enter 0 when you're finished inputting grades.\n";
+	cout << "Press 0 to stop.\n";
 	do
 	{
 		printf("%d.: ", i+1);
