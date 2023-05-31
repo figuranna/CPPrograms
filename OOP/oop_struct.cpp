@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// ***** Code for struct here *****
+// ***** Code for struct here ***** 
 
 struct Student
 {
