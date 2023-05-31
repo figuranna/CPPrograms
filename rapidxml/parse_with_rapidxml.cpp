@@ -11,8 +11,11 @@ using namespace rapidxml;
 xml_document<> doc;
 xml_node<> * root_node = NULL;
 
+
 int main(void)
 {
+	string item_type, item_name;
+	
     cout << "\nParsing my shopping list....." << endl;
     cout << endl;
    
@@ -31,13 +34,13 @@ int main(void)
     for (xml_node<> * item_node = root_node->first_node("Item");item_node; item_node = item_node->next_sibling())
     {
     	int item_id = stoi(item_node->first_attribute("item_id")->value());
-    	
-		//char* item_type = item_node->first_attribute("item_type")->value(); //-> Still works fine, but doesn't store the node's value
 		
-    	char* item_type = new char[50];
-		strcpy(item_type, item_node->first_attribute("item_type")->value()); //copies text into array
-    	char* item_name = new char[50];
-		strcpy(item_name, item_node->first_attribute("item_name")->value());
+		char* item_type_char = item_node->first_attribute("item_type")->value();
+		item_type = item_type_char;
+		
+		char* item_name_char = item_node->first_attribute("item_name")->value();
+		item_name = item_name_char;
+		
     	int price = stoi(item_node->first_attribute("price")->value());
     	
     	
