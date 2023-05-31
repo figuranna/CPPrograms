@@ -70,9 +70,9 @@ class Student
 /*
 	***** Another way to create functions *****
 
-void Student::print_Student(Student s)
+void Student::print_Student()
 		{
-			cout << "Age: " << s.Age << " First Name: " << s.First_name << " Last Name: " << s.Last_name << " GPA: " << s.Gpa << endl;
+			cout << "Age: " << Age << " First Name: " << First_name << " Last Name: " << Last_name << " GPA: " << Gpa << endl;
 		}
 */
 
