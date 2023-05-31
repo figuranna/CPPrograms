@@ -50,44 +50,20 @@ void login::mainMenu()
 }
 bool login::isLoggedIn()
 {
-	
-	/*int count=0;
-	char key;
-	bool tmp = false;
-	char psswrd[8];*/
-	
 	string un, pw; 
+	int i=0;
 
     cout << "Enter a username: ";
     cin >> username; 
     cout << "Enter a password: ";
-   	cin >> password; 
-   	
-   	//Hides the password
-   	
-    /*do{
-    	key = getch();
-    	
-    	if(key!=13){
-    		psswrd[count] = key;
-    		cout << "*";
-    		count++;
-		}
-	}while(key!=13);*/
+    cin >> password; 
+
+
 	cout << endl;
 
     ifstream read(username + ".txt"); // ifstream reads a file 
     getline(read, un); // reads the username 
     getline(read, pw); // reads the password
-    
-	/*const int length = pw.length();
-	char* char_array = new char[length + 1];
-    
-    for(int i=0;i<=length;i++){
-    	if(char_array[i] == psswrd[i]){
-    		tmp = true;
-		}
-	}*/
 
     if(un == username && pw == password)
     {
