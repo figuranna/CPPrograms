@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cart>
+    <Item item_id="1" item_type="snack" item_name="Lays Chips" price="700"/>
+    <Item item_id="2" item_type="meat" item_name="Chicken breast" price="1700"/>
+</Cart>
