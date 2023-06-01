@@ -1,3 +1,3 @@
-# C++ programs with (some) explanation
-# C++ programok egy (pár) magyarázattal
+# C++ programs with explanation
+# C++ programok egy magyarázattal
 C++ practice
