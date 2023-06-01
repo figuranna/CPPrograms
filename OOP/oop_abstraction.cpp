@@ -235,7 +235,6 @@ int main()
 	
 	// Person pr1 = Person(20, "Barbie", "Roberts");	-> the constructor is protected so we can't access it
 	
-	
 	// ***** Teacher testing *****
 	Teacher teach1 = Teacher(32, "Ica", "Cicam", 220000, 2 ,"Biology");
 	teach1.print_Teacher();
