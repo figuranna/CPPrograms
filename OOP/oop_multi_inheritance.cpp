@@ -176,7 +176,7 @@ class Teacher: public Worker
 int main()
 {
 	// ***** Student testing *****
-	Student stu1(17, "Elek", "Teszt", 2.4);
+	Student stu1 = Student(17, "Elek", "Teszt", 2.4);
 	stu1.print_Student();
 	stu1.decrease_Gpa();
 	stu1.age_Up();
@@ -186,7 +186,7 @@ int main()
 	
 	
 	// ***** Teacher testing *****
-	Teacher teach1(32, "Ica", "Cicam", 220000, "Biology");
+	Teacher teach1 = Teacher(32, "Ica", "Cicam", 220000, "Biology");
 	teach1.print_Teacher();
 	teach1.	increase_Salary(10000);
 	teach1.set_Subject("Literature");
