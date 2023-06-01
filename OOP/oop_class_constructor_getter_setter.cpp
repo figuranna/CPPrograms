@@ -79,7 +79,7 @@ void Student::print_Student()
 int main()
 {
 	// setlocale(LC_ALL,"hun"); 		-> Letters from the hungarian alphabet are accepted.
-	Student student1(17,"Elek","Teszt",3.9);
+	Student student1 = Student(17,"Elek","Teszt",3.9);
 	
 	student1.print_Student();
 	
