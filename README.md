@@ -1,2 +1,2 @@
-# C++ programs with (some) explanation in Hungarian !!! 
+# C++ programs with (some) explanation in Hungarian !!
 C++ practice
