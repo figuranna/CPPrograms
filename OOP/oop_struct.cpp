@@ -1,5 +1,5 @@
-// Class with no methods
 #include <iostream>
+// Class with no methods
 
 using namespace std;
 
