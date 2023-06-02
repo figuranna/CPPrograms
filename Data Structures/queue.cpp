@@ -20,7 +20,7 @@ int main()
 	q.front(); // gives you the first element
 	q.back(); // gives you the last element
 	
-	// print out queue's elements
+	// print out queue's elements, iterates through the elements
 	while(!q.empty())
 	{
 		cout << q.front() << ", ";
