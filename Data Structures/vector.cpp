@@ -29,5 +29,11 @@ int main()
 		//cout <<  &(*it) << ". " << endl; prints out the address of the elements
 	}
 	
+	// Functions
+	
+	v.size(); // what is he current size
+	v.max_size(); // maximum number of elements you can add to the vector
+	v.capacity(); // how many elements can you put in the vector before resizing
+	
 	return 0;
 }
