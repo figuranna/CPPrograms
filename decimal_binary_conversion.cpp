@@ -29,6 +29,7 @@ void decimal_to_binary(int num)
 		cout << bit_vector.at(i);
 	}
 	cout << endl;
+	cout << endl;
 };
 
 void binary_to_decimal(string bin_num)
@@ -71,6 +72,7 @@ void binary_to_decimal(string bin_num)
 	}
 	
 	cout << decimal << endl;
+	cout << endl;
 	}
 	
 };
@@ -83,6 +85,7 @@ int main()
 	cout << "********** CONVERTOR **********"<< endl;
 	cout << "	1. Decimal to binary"<< endl;
 	cout << "	2. Binary to decimal"<< endl;
+	cout << "	3. Quit             "<< endl;
 	cout << "*******************************"<< endl;
 	cout << "OPTION: ";
 	cin >> nav;
@@ -93,11 +96,17 @@ int main()
 			cout << "Enter the Base 10 number: ";
 			cin >> num;
 			decimal_to_binary(num);
+			main();
 			break;
 		case 2:
 			cout << "Enter the binary number: ";
 			cin >> bin_num;
 			binary_to_decimal(bin_num);
+			main();
+			break;
+		case 3:
+			cout << endl;
+			cout << "Exiting the convertor...";
 			break;
 		default:
 			cout << "The program cannot interpret your request." << endl;
